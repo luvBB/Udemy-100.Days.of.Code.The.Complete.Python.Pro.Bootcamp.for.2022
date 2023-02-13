@@ -1,0 +1,68 @@
+print("Hello world!")
+
+Hello world!
+#
+
+print("Hello world!\nHello world!")
+
+Hello world!
+Hello world!
+#
+
+print("JigSaw" + " " + "droops16")
+
+JigSaw droops16
+#
+
+input("Who do you love?")
+
+Need to reply with answer in output
+#
+
+print("Yes, is " + input("Who do you love?"))
+
+Who do you love?Cristi
+Yes, is Cristi
+#
+
+print(len (input("Who do you love? ")))
+
+Who do you love? droops16
+8
+#
+
+name = input("Who do you love? ")
+print(name)
+
+Who do you love? droops16
+droops16
+#
+
+name = "JigSaw"
+print(name)
+name = "droops16"
+print(name)
+
+JigSaw
+droops16
+#
+
+name = input("Who do you love? ")
+lenght = len(name)
+print(lenght)
+
+Who do you love? droops16
+8
+#
+
+print("My dream girl")
+what = input("what's her name?\n")
+reply = input("Yeah ... it's your girl\n")
+print("your dream girl is " + what + " " + reply)
+
+My dream girl
+what's her name?
+droops16
+Yeah ... it's your girl
+
+your dream girl is droops16 
