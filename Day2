@@ -39,13 +39,11 @@ your score is 0 + 1.6 + True
 
 print("How many encodes with droops16")
 num_encodes = int(input("How many encodes you guys did? "))
-num_each_one = int(input("How many encodes you guys did separately? "))
 encoders = int(input("How many you are? "))
-num_each_one = num_encodes / 2
-print(f"They did {num_encodes}, makeing {num_each_one} separately, being {encoders} encoders.")
+num_each_one = int(num_encodes / 2)
+print(f"We did {num_encodes} encodes, making {num_each_one} encodes separately, being only {encoders} encoders.")
 
 How many encodes with droops16
-How many encodes you guys did? 1000
-How many encodes you guys did separately? 500
+How many encodes you guys did? 600
 How many you are? 2
-They did 1000, makeing 500.0 separately, being 2 encoders.
+We did 600 encodes, making 300 encodes separately, being only 2 encoders.
