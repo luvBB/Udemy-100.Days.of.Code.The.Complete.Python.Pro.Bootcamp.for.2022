@@ -1,0 +1,51 @@
+print("hello"[0])
+
+h
+#
+
+num_char = len(input("what is your name?"))
+print(type(num_char))
+
+what is your name?a
+<class 'int'>
+#
+
+print(str(6 / 5))
+print(int(6 / 5))
+#
+
+print(round(8/3))
+3
+#
+
+print(round(8/3, 4))
+2.6667
+#
+
+score = 3
+score += 4
+print(score)
+
+7
+#
+
+score = 0
+height = 1.6
+iswinning = True
+print(f"your score is {score} + {height} + {iswinning}")
+
+your score is 0 + 1.6 + True
+#
+
+print("How many encodes with droops16")
+num_encodes = int(input("How many encodes you guys did? "))
+num_each_one = int(input("How many encodes you guys did separately? "))
+encoders = int(input("How many you are? "))
+num_each_one = num_encodes / 2
+print(f"They did {num_encodes}, makeing {num_each_one} separately, being {encoders} encoders.")
+
+How many encodes with droops16
+How many encodes you guys did? 1000
+How many encodes you guys did separately? 500
+How many you are? 2
+They did 1000, makeing 500.0 separately, being 2 encoders.
