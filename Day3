@@ -1,0 +1,87 @@
+print("Make his 4th note greater than 10")
+height = int(input("What is droops16's weight? "))
+
+if height >= 55:
+    print("She can't sleep on me")
+else:
+    print("She can sleep on me")
+    
+Make his 4th note greater than 10
+What is droops16's weight? 54
+She can sleep on me
+#
+
+print("Make her 4th note greater than 10")
+height = int(input("What is droops16's weight? "))
+
+if height > 55:
+    print("She can't sleep on me")
+    age = int(input("How old she is?"))
+    if age <= 25:
+        print("Yes")
+    else:
+        print("No")
+else:
+    print("She can sleep on me")
+    
+
+ print("Make her 4th note greater than 10")
+height = int(input("What is droops16's weight? "))
+
+if height > 55:
+    print("She can't sleep on me")
+    age = int(input("How old she is?"))
+    if age <= 25:
+        print("Yes")
+    else:
+        print("No")
+else:
+    print("She can sleep on me")
+#
+
+print("Make his 4th note greater than 10")
+height = int(input("What is droops16's weight? "))
+
+if height >= 55:
+    print("She can't sleep on me")
+else:
+    print("She can sleep on me")
+    note = int(input("what's her 4th note?"))
+    if note == 1:
+        print("She will sleep")
+    elif note <= 10:
+        print("She will be cozy and do everything with me")
+ #
+ 
+ print('''
+  _               ____  ____  
+ | |             |  _ \|  _ \ 
+ | |_   ___   __ | |_) | |_) |
+ | | | | \ \ / / |  _ <|  _ < 
+ | | |_| |\ V /  | |_) | |_) |
+ |_|\__,_| \_/   |____/|____/ 
+''')
+
+print("How to get in to your panties tonight?")
+
+choice1 = input('We gonna start the night watching something! Do you want to watch a "movie" or do "nothing"? ')
+
+if choice1 == "movie":
+    print("Awesome BB!")
+    choice2 = input('So... can I undress the top of you! I, so loved what I saw from shower. "yes" or do "no" BB? ')
+    if choice2 == "yes":
+        print("Wow! I covered your breasts with my hands!")
+    else:
+        print("Really, not excited at all? Damn!")
+    choice3 = input('I know you dont want me stop it now. What do you want from me? Completly "undress" you and quietly watching the movie further while keeping you in my arms, to "touch" all your naked body slowly, or simply dont care and want to make "love" with me, or simply you wanna "sleep" ? ')
+    if choice3 == "undress":
+        print("Wow ... my body is shaking!")
+    elif choice3 == "touch":
+        print("Good choice BB.. it is so nice to feel you!")
+    elif choice3 == "love":
+        print("I am yours BB!")
+    else:
+        print("Sure, you can sleep in my arms. Love that too!")
+
+else:
+    print("I am looking ugly at you! Game over!")
