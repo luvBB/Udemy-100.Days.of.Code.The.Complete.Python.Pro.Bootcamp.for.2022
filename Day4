@@ -1,0 +1,19 @@
+import random
+
+droops16_choice = int(input("La ce ne uitam astazi love? Ia alege BB: 0 - Horror, 1 - Thriller, 2 - XXX\n"))
+jigsaw_choice = random.randint(0, 2)
+
+print(f"JigSaw a ales {jigsaw_choice}")
+
+if droops16_choice == 0 and jigsaw_choice == 2:
+    print("Yeah!")
+elif droops16_choice <= 1 and jigsaw_choice == 2:
+    print("S-o crezi tu! Dezbracarea!")
+elif droops16_choice < 1 and jigsaw_choice != 2:
+    print("Conjuring sau Sinister scrie pe tine love!")
+elif droops16_choice > 1 and jigsaw_choice != 2:
+    print("Serios? Te gandesti tu la XXX iar eu nu?")
+elif droops16_choice >= 1 and jigsaw_choice == 0:
+    print("Bine bai! Ne uitam la ce vrei tu!")
+elif droops16_choice == jigsaw_choice:
+    print("Ooook! XXX sa fie!")
